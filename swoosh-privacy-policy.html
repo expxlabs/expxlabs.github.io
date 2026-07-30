@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swoosh Privacy Policy</title>
+<meta name="description" content="Privacy policy for Swoosh (com.expxlabs.swoosh) — Swoosh collects no personal information and transmits no data off your device.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1c1e;
+    --muted: #5b6066;
+    --rule: #e3e6ea;
+    --accent: #1f6feb;
+    --card: #f6f8fa;
+    --code-bg: #eef1f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a;
+      --fg: #e6e8ea;
+      --muted: #a0a6ad;
+      --rule: #2a2e35;
+      --accent: #6ea8ff;
+      --card: #1c1f25;
+      --code-bg: #22262d;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+  }
+  .wrap { max-width: 46rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
+  header { border-bottom: 1px solid var(--rule); padding-bottom: 1.25rem; margin-bottom: 2rem; }
+  h1 { font-size: 1.75rem; line-height: 1.3; margin: 0 0 .5rem; letter-spacing: -0.01em; }
+  h2 {
+    font-size: 1.25rem; margin: 2.75rem 0 .75rem;
+    padding-top: 1.25rem; border-top: 1px solid var(--rule); letter-spacing: -0.01em;
+  }
+  h3 { font-size: 1rem; margin: 1.75rem 0 .5rem; }
+  p, ul, ol { margin: 0 0 1rem; }
+  ul, ol { padding-left: 1.4rem; }
+  li { margin-bottom: .4rem; }
+  a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 2px; }
+  .meta { color: var(--muted); font-size: .9rem; line-height: 1.6; margin: 0; }
+  .meta code, td code, p code, li code {
+    background: var(--code-bg); border-radius: 4px;
+    padding: .1em .35em; font-size: .875em;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+  .callout {
+    background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+    padding: 1rem 1.25rem; margin: 1.5rem 0;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+  .table-scroll { overflow-x: auto; margin: 0 0 1.25rem; }
+  table { border-collapse: collapse; width: 100%; min-width: 34rem; font-size: .94rem; }
+  th, td { text-align: left; vertical-align: top; padding: .6rem .75rem; border-bottom: 1px solid var(--rule); }
+  th { font-weight: 600; white-space: nowrap; }
+  footer { margin-top: 3.5rem; padding-top: 1.25rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: .875rem; }
+  @media (max-width: 30rem) { body { font-size: 16px; } .wrap { padding-top: 1.75rem; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>Swoosh Privacy Policy</h1>
+  <p class="meta">
+    App: <strong>Swoosh</strong> (<code>com.expxlabs.swoosh</code>)<br>
+    Provider: expxlabs<br>
+    Effective: July 30, 2026 · Last updated: July 30, 2026
+  </p>
+</header>
+
+<div class="callout">
+  <p><strong>Summary:</strong> Swoosh collects no personal information and transmits no data off your device. Swoosh does not declare the internet permission (<code>android.permission.INTERNET</code>) at all, so it is technically incapable of sending data to any server. It contains no advertising, analytics, or crash-reporting SDKs, and there are no accounts or backend services.</p>
+</div>
+
+<h2>1. Information we collect</h2>
+
+<p>Swoosh <strong>does not collect or transmit</strong> any personal or device information. The developer has no access to your data. Specifically, Swoosh does not collect, transmit, sell, or share:</p>
+
+<ul>
+  <li>Personally identifiable information such as name, email address, or phone number</li>
+  <li>Account or login credentials (Swoosh has no account feature)</li>
+  <li>Contacts, messages, call logs, photos, or files</li>
+  <li>Location data</li>
+  <li>Screen content, typed text, or passwords</li>
+  <li>Advertising identifiers (AAID) or persistent device identifiers</li>
+  <li>Usage analytics, event logs, or crash reports</li>
+</ul>
+
+<h2>2. Information stored only on your device</h2>
+
+<p>Swoosh stores the settings you configure in app-private storage on your device (Android <code>SharedPreferences</code>). This data never leaves the device and is not accessible to other apps.</p>
+
+<ul>
+  <li>Edge panel slot layout and action bindings</li>
+  <li>Favorite apps (package names)</li>
+  <li>Widget panel configuration</li>
+  <li>Excluded apps where handles are hidden (package names)</li>
+  <li>Presentation settings such as handle position, size, and opacity, interaction timing, icon style, and layout tuning</li>
+</ul>
+
+<p>This data is removed from the device when you uninstall the app.</p>
+
+<h2>3. Permissions and why they are used</h2>
+
+<div class="table-scroll">
+<table>
+  <thead>
+    <tr><th>Permission</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code>SYSTEM_ALERT_WINDOW</code><br>(Display over other apps)</td>
+      <td>Draws the edge handles and panels along the screen edge.</td>
+    </tr>
+    <tr>
+      <td>Accessibility service</td>
+      <td>Performs the system actions you select by gesture or tap (Back, Home, Recents, notification shade, Quick Settings, power menu, screen lock, screenshot), and identifies the foreground app so handles can be hidden in apps you exclude. See section 4.</td>
+    </tr>
+    <tr>
+      <td><code>PACKAGE_USAGE_STATS</code><br>(Usage access)</td>
+      <td>Queried on demand to derive the recent-apps list and "previous app" ordering. Results are not stored, and Swoosh keeps no app-usage history of its own.</td>
+    </tr>
+    <tr>
+      <td>Installed app queries<br>(<code>&lt;queries&gt;</code>: LAUNCHER / HOME)</td>
+      <td>Builds the list of launchable apps shown in launcher panels and favorites. The list is used only on the device and is never transmitted.</td>
+    </tr>
+    <tr>
+      <td><code>FOREGROUND_SERVICE</code>,<br><code>FOREGROUND_SERVICE_SPECIAL_USE</code></td>
+      <td>Keeps the edge handles you enabled available while you use other apps.</td>
+    </tr>
+    <tr>
+      <td><code>POST_NOTIFICATIONS</code></td>
+      <td>Shows the foreground-service status notification required by Android.</td>
+    </tr>
+    <tr>
+      <td><code>RECEIVE_BOOT_COMPLETED</code></td>
+      <td>Restores the handles you enabled after the device restarts.</td>
+    </tr>
+    <tr>
+      <td><code>VIBRATE</code></td>
+      <td>Provides haptic feedback during gestures.</td>
+    </tr>
+    <tr>
+      <td><code>INTERNET</code></td>
+      <td><strong>Not used (not declared).</strong> Swoosh cannot perform network communication.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2>4. Accessibility service data-use disclosure</h2>
+
+<p>Swoosh uses the Android accessibility API for two purposes only: <strong>performing the system actions you explicitly select</strong>, and <strong>identifying the current app so handles can be hidden in apps you exclude</strong>.</p>
+
+<ul>
+  <li>Swoosh's accessibility service is configured with <code>canRetrieveWindowContent="false"</code>, so it <strong>cannot read screen content</strong>. It does not read, collect, store, or transmit on-screen text, typed input, or passwords.</li>
+  <li>The only accessibility event it subscribes to is window state change (<code>typeWindowStateChanged</code>), and the only value it uses from it is the <strong>package name of the foreground app</strong>. That value is used immediately to decide handle visibility and is not stored.</li>
+  <li>No information obtained through the accessibility API is transmitted off the device, shared with third parties, or used for advertising, analytics, or profiling.</li>
+  <li>Actions are performed only in response to your direct gesture or tap; Swoosh never initiates actions on its own.</li>
+</ul>
+
+<h2>5. Third parties and external services</h2>
+
+<p>Swoosh bundles no third-party SDKs or external services. There is no ad network, analytics tool, crash reporter, or payment module, and no data is sent to any developer-operated server. Consequently, no personal information is shared with third parties.</p>
+
+<h2>6. Backup and settings export</h2>
+
+<h3>User-initiated settings export / import</h3>
+<p>Swoosh can export its settings to a JSON file and import them back. This happens only when you initiate it, and the file is written to a location <strong>you choose</strong> through the Android Storage Access Framework. The file contains only the settings listed in section 2 and no personal information. Managing and sharing that file afterward is your responsibility.</p>
+
+<h3>Android Auto Backup</h3>
+<p>Swoosh allows Android Auto Backup. As a result, the settings listed in section 2 may be backed up to <strong>your own Google account</strong> and restored when you reinstall the app or set up a new device. This backup is performed by the Android operating system, not by Swoosh, and the developer cannot access its contents; that data is handled under Google's privacy policy and backup terms. You can disable backup in your device's system settings.</p>
+
+<h2>7. Children's privacy</h2>
+
+<p>Swoosh is not directed at children and collects no personal information from any user, regardless of age.</p>
+
+<h2>8. Data retention and deletion</h2>
+
+<p>Because Swoosh stores no data on any server, there is no server-side data to request deletion of. Settings stored on your device can be removed as follows:</p>
+
+<ul>
+  <li>Uninstall the app — all Swoosh settings on the device are removed with it.</li>
+  <li>System Settings → Apps → Swoosh → Storage → Clear data</li>
+  <li>You can revoke the accessibility service, display-over-other-apps, and usage-access permissions individually in system settings. Revoking a permission disables only the corresponding feature; the rest of the app keeps working.</li>
+</ul>
+
+<h2>9. Security</h2>
+
+<p>All Swoosh data is kept in app-private storage on the device, isolated from other apps by the Android application sandbox. Because there is no network transmission, there is no exposure of data in transit.</p>
+
+<h2>10. Changes to this policy</h2>
+
+<p>If this policy changes, we will update this page and revise the "last updated" date above. Any material change to how data is handled will also be noted in the app's release notes.</p>
+
+<h2>11. Contact</h2>
+
+<p>For questions about this privacy policy, please contact <a href="mailto:swoosh@expxlabs.com">swoosh@expxlabs.com</a>.</p>
+
+<footer>
+  <p>Swoosh · com.expxlabs.swoosh · © 2026 expxlabs</p>
+</footer>
+
+</div>
+</body>
+</html>
